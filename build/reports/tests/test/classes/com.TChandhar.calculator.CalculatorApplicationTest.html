@@ -3,17 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - CalculatorApplicationTests</title>
+<title>Test results - CalculatorApplicationTest</title>
 <link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="../css/style.css" rel="stylesheet" type="text/css"/>
 <script src="../js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>CalculatorApplicationTests</h1>
+<h1>CalculatorApplicationTest</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
-<a href="../packages/com.TChandhar.calculator.html">com.TChandhar.calculator</a> &gt; CalculatorApplicationTests</div>
+<a href="../packages/com.TChandhar.calculator.html">com.TChandhar.calculator</a> &gt; CalculatorApplicationTest</div>
 <div id="summary">
 <table>
 <tr>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.003s</div>
+<div class="counter">0.959s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">contextLoads()</td>
-<td class="success">0.003s</td>
+<td class="success">0.959s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,8 +87,20 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2023-07-09T14:54:33.684+01:00  INFO 2557 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.TChandhar.calculator.CalculatorApplicationTests]: CalculatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2023-07-09T14:54:33.700+01:00  INFO 2557 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.TChandhar.calculator.CalculatorApplication for test class com.TChandhar.calculator.CalculatorApplicationTests
+<pre>14:54:30.386 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.TChandhar.calculator.CalculatorApplicationTest]: CalculatorApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:54:30.539 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.TChandhar.calculator.CalculatorApplication for test class com.TChandhar.calculator.CalculatorApplicationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.1)
+
+2023-07-09T14:54:30.989+01:00  INFO 2557 --- [    Test worker] c.T.c.CalculatorApplicationTest          : Starting CalculatorApplicationTest using Java 20.0.1 with PID 2557 (started by tom in /home/tom/calc/spring-test)
+2023-07-09T14:54:30.995+01:00  INFO 2557 --- [    Test worker] c.T.c.CalculatorApplicationTest          : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-07-09T14:54:32.697+01:00  INFO 2557 --- [    Test worker] c.T.c.CalculatorApplicationTest          : Started CalculatorApplicationTest in 1.996 seconds (process running for 3.37)
 </pre>
 </span>
 </div>
