@@ -2,9 +2,7 @@ package com.TChandhar.calculator;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.Assert.assertEquals;
-//import org.springframework.boot.test.context.SpringBootTest;
 
-//@SpringBootTest
 public class CalculatorTests {
 	private Calculator calculator = new Calculator();
 
