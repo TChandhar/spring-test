@@ -11,4 +11,3 @@ public class CalculatorTests {
 		assertEquals(5, calculator.sum(2, 3));
 }
 				}	
-}	
