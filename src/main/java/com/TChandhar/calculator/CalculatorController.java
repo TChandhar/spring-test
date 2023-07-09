@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 class CalculatorController 
 {
-	@Autowirwed
-	private Calculator calculator
+	@Autowired
+	private Calculator calculator;
 
 	@RequestMapping("/sum")
 	String sum(@RequestParam("a") Integer a,

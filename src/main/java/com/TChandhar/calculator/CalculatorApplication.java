@@ -11,13 +11,4 @@ public class CalculatorApplication {
 		SpringApplication.run(CalculatorApplication.class, args);
 	}
 
-	@Service
-	public class Calculator
-	{
-		public int sum( int a, int b)
-		{
-			return a+b;
-		}
-	}
-
 }
